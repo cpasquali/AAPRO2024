@@ -1,0 +1,33 @@
+.dias{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.horarios{
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.lunes{
+    color: lightblue;
+}
+
+.martes{
+    color: blue;
+}
+
+.miercoles{
+    color: green;
+}
+
+.jueves{
+    color: violet;
+}
+
+.viernes{
+    color: purple;
+}
+
+.sabado-domingo{
+    color: red;
+}
