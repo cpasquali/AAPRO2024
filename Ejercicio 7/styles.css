@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-gap: 1px;
+}
+
+.box{
+    height: 200px;
+    width: 100%;
+    
+}
+
+.box.red{
+    background-color: red;
+}
+
+.box.blue{
+    background-color: blue;
+}
+
+.box.violet{
+    background-color: rgb(92, 8, 92);
+}
+
+.box.green{
+    background-color: green;
+}
+
+.box.yellow{
+    background-color: yellow;
+}
+
+.box.orange{
+    background-color: orange;
+}
+
+.box.black{
+    background-color: black;
+}
+
+.box.pink{
+    background-color: pink;
+}
+
+.box.grey{
+    background-color: grey;
+}
+
+@media (width <= 320px){
+    .box.green, .box.yellow, .box.orange, .box.black,  .box.pink, .box.grey{
+        display: none;
+    }
+}
+
+@media (width >= 321px) and (width <= 768px){
+
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box.black, .box.pink, .box.grey{
+        display: none;
+    }
+}
+
+@media (width >= 769px){
+    .container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
