@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #ecefed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #20a4d8;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.list-item{
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.list-item:hover{
+    transform: scale(1.3);
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p{
+    font-size: 18px;
+}
+
+.link.main{
+    color: black;
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #20a4d8;
+    width: 100%;
+}
+
+.principal.horarios{
+   margin: 10px;
+}
+
+.form{
+    margin: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 2px solid #20a4d8;
+}
+
+.input-form{
+    height: 30px;
+    width: 235px;
+}
+
+.btn-form{
+    height: 30px;
+    width: 240px; 
+}
+
+.horarios{
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.dias{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.lunes{
+    color: green;
+}
+
+.martes{
+    color: violet;
+}
+
+.miercoles{
+    color: blue;
+}
+
+.jueves{
+    color:yellow;
+}
+
+.viernes{
+    color: orange;
+}
+
+.sabado-domingo{
+    color: red;
+}
