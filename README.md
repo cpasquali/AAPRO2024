@@ -13,6 +13,9 @@ En este Repo encontraremos todos los Trabajos Practicos para el curso de Aprende
 ### Ejercicio 6: Modificacion e implementacion de Display: Flex en la clase de la etiqueta Header y Footer.
 ### Ejercicio 7: Realizacion de ejercicio implementando Media Queries y utilizando Display: Grid.
 ### Ejercicio 8: Implementacion de Bootstrap a la pagina web. Se agregaron clases de Bootstrap en el formulario.
+### ----
+### Ejercicio 10: Inicializacion de variables utilizando sus valores para calculos matematicos.
+### Ejercicio 11: Ejercicios variados utilizando JavaScript
 
 ## TECNOLOGIAS A USAR
 ### HTML
