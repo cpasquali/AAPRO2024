@@ -16,8 +16,9 @@ En este Repo encontraremos todos los Trabajos Practicos para el curso de Aprende
 ### ----
 ### Ejercicio 10: Inicializacion de variables utilizando sus valores para calculos matematicos.
 ### Ejercicio 11: Ejercicios variados utilizando JavaScript
+### Ejercicio 12: Crear funcion que ingrese por parametro un nombre, cuando se ingresa un nombre te da la bienvenida, sino se ingresa nada te muestra un mensaje en bucle explicando que se tiene que ingresar obligatoriamente
 
-## TECNOLOGIAS A USAR
+## TECNOLOGIAS USADAS
 ### HTML
 ### CSS
 ### JavaScript Vanilla
